@@ -31,11 +31,11 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array
 }
 
-// function removeElementFromBeginningOfArray(array) {
-// var arrayTwo = [...array];
-//   array.slice();
-//   return arrayTwo
-// }
+function removeElementFromBeginningOfArray(array) {
+var arrayTwo = array;
+  array.slice();
+  return arrayTwo
+}
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
